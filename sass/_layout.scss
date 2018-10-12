@@ -1,0 +1,33 @@
+.container {
+  max-width: 120rem; // = 1200px. If not enough space, occupy 100% of view port width
+  margin: 8rem auto;
+  background-color: var(--color-grey-light-1);
+  box-shadow: var(--shadow-dark);
+  min-height: 50rem;
+}
+
+.header {
+  font-size: 1.4rem;
+  height: 7rem;
+  background-color: #fff;
+  border-bottom: var(--color-grey-light-2);
+  
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  display:flex;
+}
+
+.sidebar {
+  background-color: var(--color-grey-dark-1);
+  flex: 0 0 18%; //flex: grow(false) shrink(false) basis(18%)
+}
+
+.hotel-view {
+  background-color: #fff;
+  background-color: orange;
+  flex: 1; //this element should grow as much as they can to fill reset of space of its parent
+}
