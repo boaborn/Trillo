@@ -1,2 +1,5 @@
 # Trillo
-flex-box
+CSS animation, flex-box
+
+# Demo
+![alt text](./demo/demo.gif) </br>
